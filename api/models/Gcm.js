@@ -13,7 +13,8 @@ module.exports = {
           required:true
       },
       userId:{
-          type:"string"
+          type:"string",
+          unique:true
       }
   }
 };
